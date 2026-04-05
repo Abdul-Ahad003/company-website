@@ -5,6 +5,7 @@
 @layer base {
   body {
     @apply bg-white text-slate-900 font-sans antialiased selection:bg-primary-500 selection:text-white;
+    overflow-x: hidden;
   }
 }
 
